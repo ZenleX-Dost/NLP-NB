@@ -1,0 +1,64 @@
+{
+    "dataset_shape": "(26709, 3)",
+    "class_distribution": {
+        "0": 0.5610468381444457,
+        "1": 0.43895316185555433
+    },
+    "model_accuracy": {
+        "Naive Bayes": 0.7895919131411456,
+        "Logistic Regression": 0.786035192811681,
+        "Random Forest": 0.7641332834144515
+    },
+    "best_model": "Naive Bayes",
+    "top_sarcastic_words": [
+        "man",
+        "nation",
+        "area",
+        "report",
+        "local",
+        "shit",
+        "introduces",
+        "fucking",
+        "study",
+        "clearly"
+    ],
+    "top_non_sarcastic_words": [
+        "trump",
+        "here",
+        "donald",
+        "donald trump",
+        "muslim",
+        "queer",
+        "california",
+        "watch",
+        "transgender",
+        "trans"
+    ],
+    "predictions": [
+        {
+            "headline": "President announces new healthcare reform",
+            "prediction": "Sarcastic",
+            "confidence": 0.5146563609852981
+        },
+        {
+            "headline": "Area man successfully avoids talking to neighbor for 10th consecutive day",
+            "prediction": "Sarcastic",
+            "confidence": 0.9817454589796601
+        },
+        {
+            "headline": "Scientists discover new species of butterfly in Amazon rainforest",
+            "prediction": "Sarcastic",
+            "confidence": 0.8899609504270743
+        },
+        {
+            "headline": "Nation's economists announce recession is over for wealthy people",
+            "prediction": "Sarcastic",
+            "confidence": 0.9171851077401297
+        },
+        {
+            "headline": "Local woman finally finds perfect work-life balance at age 97",
+            "prediction": "Sarcastic",
+            "confidence": 0.7306054928839868
+        }
+    ]
+}
